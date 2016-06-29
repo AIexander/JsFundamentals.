@@ -16,6 +16,12 @@ tellFortune("five","Meowth","zootopia","Penguin Herder")
 // EXERCISE: The Age Calculator
 
 // Forgot how old you are? Calculate it!
+var calculateAge = function(birthyear, thisyear){
+  console.log ("You are either " + (thisyear-birthyear)+ " or "+ (thisyear-birthyear-1) +" years old");
+}
+calculateAge(1992, 2016)
+calculateAge(1984, 2116)
+calculateAge(2012, 1932)
 
 // Write a function named calculateAge that:
 // takes 2 arguments: birth year, current year.
@@ -27,6 +33,15 @@ tellFortune("five","Meowth","zootopia","Penguin Herder")
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+var penguin = new Date();
+var n = penguin.getFullYear();
+
+var calculateSupply = function(age, amountPD){
+  console.log("You will need "+(((100-age)*365.25)*amountPD)+" dollars to last to the age of 100" + " spending "+amountPD+" per day" );
+}
+calculateSupply(24, 100)
+calculateSupply(43, 50)
+calculateSupply(24,15.8)
 
 // Write a function named calculateSupply that:
 // takes 2 arguments: age, amount per day.
