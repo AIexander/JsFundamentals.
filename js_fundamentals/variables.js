@@ -17,6 +17,11 @@ console.log("you will be a " + x + " in " + y +" and married to " + z, "with " +
 // Forgot how old someone is? Calculate it!
 
 // Store the current year in a variable.
+var currentYear = 2016
+var birthYear = 1992
+var age = currentYear-birthYear
+console.log("They appear to be "+age+ " years old.")
+
 // Store their birth year in a variable.
 // Calculate their age based on the stored values.
 // Output them to the screen like so: "They are NN years old.", substituting the values.
@@ -24,7 +29,11 @@ console.log("you will be a " + x + " in " + y +" and married to " + z, "with " +
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
-
+currentAge = 24
+maximumAge = 93
+costPerDay = 3
+costForLife = (maximumAge-currentAge)*365.25*costPerDay
+console.log("You would need "+costForLife+" dollars to last you a lifetime of coffee.")
 // Store your current age into a variable.
 // Store a maximum age into a variable.
 // Store an estimated amount per day (as a number).
