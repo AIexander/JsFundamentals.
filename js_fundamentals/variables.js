@@ -45,7 +45,12 @@ console.log("You would need "+costForLife+" dollars to last you a lifetime of co
 // Calculate properties of a circle, using the definitions here.
 
 // Store a radius into a variable.
-var
+var radius = 34
+var circumference = Math.PI*(2*radius)
+var area = Math.PI*(radius*radius)
+
+console.log ("the circumference is " +circumference)
+console.log ("The area is "+area )
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
 
