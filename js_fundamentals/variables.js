@@ -58,6 +58,10 @@ console.log ("The area is "+area )
 
 // It's hot out! Let's make a converter based on the steps here.
 
+var tempInC = 50
+var tempInF = (tempInC*1.8) + 32
+
+console.log (tempInC+"°C is " + tempInF + "°F")
 // Store a celsius temperature into a variable.
 // Convert it to fahrenheit and output "NN°C is NN°F".
 // Now store a fahrenheit temperature into a variable.
