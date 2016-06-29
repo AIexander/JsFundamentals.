@@ -29,10 +29,10 @@ console.log("They appear to be "+age+ " years old.")
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
-currentAge = 24
-maximumAge = 93
-costPerDay = 3
-costForLife = (maximumAge-currentAge)*365.25*costPerDay
+var currentAge = 24
+var maximumAge = 93
+var costPerDay = 3
+var costForLife = (maximumAge-currentAge)*365.25*costPerDay
 console.log("You would need "+costForLife+" dollars to last you a lifetime of coffee.")
 // Store your current age into a variable.
 // Store a maximum age into a variable.
@@ -45,6 +45,7 @@ console.log("You would need "+costForLife+" dollars to last you a lifetime of co
 // Calculate properties of a circle, using the definitions here.
 
 // Store a radius into a variable.
+var
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
 
