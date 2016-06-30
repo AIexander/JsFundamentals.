@@ -2,13 +2,13 @@
 
 // EXERCISE: What number's bigger?
 var greaterNum = function(a,b) {
-  if(a>b) {return a
+  if(a>b) {return a + " is bigger"
   }
-  else if(b>a) {return b
+  else if(b>a) {return b + " is bigger"
   }
   else {return "they be equal"}
 }
-console.log(greaterNum(100,100))
+console.log(greaterNum(1020,100))
 
 // Write a function named greaterNum that:
 // takes 2 arguments, both numbers.
