@@ -1,6 +1,14 @@
 // Exercises: if/else statements
 
 // EXERCISE: What number's bigger?
+var greaterNum = function(a,b) {
+  if(a>b) {return a
+  }
+  else if(b>a) {return b
+  }
+  else {return "they be equal"}
+}
+console.log(greaterNum(100,100))
 
 // Write a function named greaterNum that:
 // takes 2 arguments, both numbers.
@@ -28,7 +36,3 @@
 // returns the number and pluralized form, like "5 cats" or "1 dog".
 // Call that function for a few different scores and log the result to make sure it works.
 // Bonus: Make it handle a few collective nouns like "sheep" and "geese".
-
-
-
-
