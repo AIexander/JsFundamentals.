@@ -4,6 +4,9 @@
 
 // Never forget another recipe!
 
+var thePenguin = {title:"Mole", serves:2, Ingredients:["cinnamon", "cumin", "cocoa"]}
+console.log(thePenguin)
+
 // Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings).
 // On separate lines (one console.log statement for each), log the recipe information so it looks like:
 // Mole
@@ -27,6 +30,3 @@
 
 // Create an object to store the following information about your favorite movie: title (a string), duration (a number), and stars (an array of strings).
 // Create a function to print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
-
-
-
